@@ -1,0 +1,22 @@
+[package]
+name = "bench-which-ihcwh"
+version = "0.1.0"
+authors = ["Kevin Del Castillo <quebin31@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ichwh = "0.3"
+futures = "0.3"
+
+
+[dev-dependencies]
+criterion = "0.3"
+which = "3"
+ichwh = "0.3"
+futures = "0.3"
+
+[[bench]]
+name = "compare_both"
+harness = false
